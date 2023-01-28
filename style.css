@@ -2,8 +2,6 @@ body {
     height: 100vh;
     margin: 0;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
     background-color: #080808;
     box-sizing: border-box;
   }
@@ -93,6 +91,7 @@ img {
     max-width: 1368px;
     gap: 40px;
     align-self: center;
+    margin: 0 auto;
     background-color: #F9FAF8;
     padding-bottom: 90px;
     
@@ -138,7 +137,7 @@ img {
     padding-bottom: 90px;
     background-color: #E5E7EB;
     max-width: 1368px;
-    align-self: center;
+    margin: 0 auto;
     
     
 }
@@ -168,7 +167,7 @@ img {
     background-color: #F9FAF8;
     display: flex;
     max-width: 1368px;
-    align-self: center;
+    margin: 0 auto;
     justify-content: center; 
     padding-top: 60px;
     padding-bottom: 60px;
@@ -217,16 +216,14 @@ footer {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    max-width: 1368px;
-    align-self: stretch; 
+    max-width: 1368px; 
     padding-top: 20px; 
     padding-bottom: 20px;
-    justify-content: center;
-    margin: auto;
+    align-items: center;
+    margin: 0 auto;
 
 }
 
 .footer-text {
     font-size: 13px;
-    flex-grow: 100%;
 }
