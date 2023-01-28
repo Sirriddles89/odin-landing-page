@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -78,7 +77,7 @@ img {
     object-fit: cover;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
     padding: 8px 24px;
     border-radius: 10px;
@@ -93,7 +92,7 @@ button {
     flex-direction: column;
     max-width: 1368px;
     gap: 40px;
-    margin: 0 auto;
+    align-self: center;
     background-color: #F9FAF8;
     padding-bottom: 90px;
     
@@ -129,4 +128,105 @@ button {
     gap: 8px;
     justify-content: center;
     align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #E5E7EB;
+    max-width: 1368px;
+    align-self: center;
+    
+    
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 50%;
+    
+}
+
+.quotee {
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 50%;
+    align-self: flex-end;
+    margin-right: 25px;
+    
+}
+
+.action {
+    background-color: #F9FAF8;
+    display: flex;
+    max-width: 1368px;
+    align-self: center;
+    justify-content: center; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.call {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    max-width: 66%;
+    padding: 36px 72px;
+    border-radius: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#E5E7EB;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.p1 {
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.p2 {
+   margin: 0;
+   font-size: 14px; 
+   color: #E5E7EB;
+   white-space: nowrap;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    max-width: 1368px;
+    align-self: stretch; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.footer-text {
+    font-size: 13px;
+    flex-grow: 100%;
 }
